@@ -26,7 +26,6 @@ function sortearAmigo() {
         item.textContent = "El amigo secreto es: \n" + nombres[numRandom];
         amigoSecreto.appendChild(item);
     }
-
     nombres = [];
     nombre.value = "";
     listaNombres.textContent = "";
