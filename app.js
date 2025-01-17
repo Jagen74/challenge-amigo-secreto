@@ -6,8 +6,7 @@ let nombres = [];
 function agregarAmigo() {
     if (!nombre.value) {
         alert("Ingresa un Nombre por favor.")
-    } else {
-        console.log(nombre.value);
+    } else {        
         nombres.push(nombre.value);
         const item = document.createElement("li");
         item.textContent = nombre.value;
@@ -19,12 +18,9 @@ function agregarAmigo() {
 function sortearAmigo() {
     if (!nombres.length) {
         alert("Ingresa los Nombres primero por favor.")
-        amigoSecreto.innerHTML = "";
+        amigoSecreto.textContent = "";
     } else {
         let numRandom = Math.floor(Math.random() * nombres.length);
-        console.log(numRandom);
-        console.log(nombres[numRandom])
-
         const item = document.createElement("li");
         item.style.whiteSpace = "pre-line";
         item.textContent = "El amigo secreto es: \n" + nombres[numRandom];
@@ -33,7 +29,7 @@ function sortearAmigo() {
 
     nombres = [];
     nombre.value = "";
-    listaNombres.innerHTML = "";
+    listaNombres.textContent = "";
 }
 
 //* Capitalizar Nombre ingresado
