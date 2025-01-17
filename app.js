@@ -1,7 +1,7 @@
 const nombre = document.querySelector(".input-name");
 const listaNombres = document.querySelector(".name-list");
 const amigoSecreto = document.querySelector(".result-list");
-let nombres = [];
+const nombres = [];
 
 function agregarAmigo() {
     if (!nombre.value) {
