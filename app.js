@@ -4,20 +4,24 @@ const amigoSecreto = document.querySelector(".result-list");
 let nombres = [];
 
 function agregarAmigo() {
-    if (!nombre.value) {
-        alert("Ingresa un Nombre por favor.")
-    } else {        
+    if (!nombre.value){
+        alert("Ingresa un Nombre por favor.");
+        amigoSecreto.textContent = "";
+    } else {
+        amigoSecreto.textContent = "";
+        listaNombres.textContent = "";
         nombres.push(nombre.value);
-        const item = document.createElement("li");
-        item.textContent = nombre.value;
-        listaNombres.appendChild(item);
-        nombre.value = "";
-    }
-}
+        nombres.forEach(nombre => {
+        const item = document.createElement('li');
+        item.textContent = nombre;
+        listaNombres.appendChild(item);        
+    });
+    nombre.value = "";
+}}
 
 function sortearAmigo() {
     if (!nombres.length) {
-        alert("Ingresa los Nombres primero por favor.")
+        alert("Ingresa los Nombres primero por favor.");
         amigoSecreto.textContent = "";
     } else {
         let numRandom = Math.floor(Math.random() * nombres.length);
@@ -31,10 +35,9 @@ function sortearAmigo() {
     listaNombres.textContent = "";
 }
 
-//* Capitalizar Nombre ingresado
 nombre.addEventListener('input', function () {
-    if (this.value.length) {
-        const nombreCap = this.value.charAt(0).toUpperCase() + this.value.slice(1);
-        this.value = nombreCap;
+    let value = this.value.trim();
+    if (value.length > 0) {
+        this.value = value.charAt(0).toUpperCase() + value.slice(1);
     }
 });
