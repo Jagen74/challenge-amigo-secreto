@@ -1,3 +1,5 @@
+(() => { //* Thanks Peter lol
+
 const nombre = document.querySelector(".input-name");
 const listaNombres = document.querySelector(".name-list");
 const amigoSecreto = document.querySelector(".result-list");
@@ -48,3 +50,8 @@ document.addEventListener("keydown", function (event) {
         agregarAmigo();
     }
 });
+
+window.agregarAmigo = agregarAmigo;
+window.sortearAmigo = sortearAmigo;
+
+})();
