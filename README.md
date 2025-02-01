@@ -1,6 +1,7 @@
 # 🎲 Challenge Alura - Amigo Secreto.
 
-Proyecto simple cuya función es sortear un nombre aleatoriamente de una lista.
+Proyecto propuesto por Alura cuya función es sortear un nombre aleatoriamente de una lista y
+después mostrarle en pantalla.
 
 ## 💡 ¿Cómo funciona?.
 
@@ -13,6 +14,7 @@ Proyecto simple cuya función es sortear un nombre aleatoriamente de una lista.
 - HTML
 - CSS
 - JavaScript vanilla
+- SweetAlert2
 
 ## ✨ Características.
 
@@ -21,19 +23,26 @@ Proyecto simple cuya función es sortear un nombre aleatoriamente de una lista.
 - Selección aleatoria con un solo clic.
 - Visualización clara de la lista de participantes.
 - Alertas para campos inválidos.
+- Validación de nombres duplicados- 
+- Diseño Responsivo para moviles.
 
-## 👀 Vista previa
+
+## 💻 Vista previa
+
 <div align="center">
-<img src="https://github.com/user-attachments/assets/5eb665cd-46bc-4358-86e2-e167439e3389" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/1c4e9ef7-b5e2-4344-8bda-591dca5b687c" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/12beda06-fd4c-4dbc-990d-b209b8aa666c" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/c11eaa41-5639-4c7f-8b95-5454b0575981" width="125" alt="Vista de la aplicación">  
+<img src="https://github.com/user-attachments/assets/15a36aeb-348b-437a-94b2-a2af2545fc14" width="400" alt="Vista de la aplicación">
+<img src="https://github.com/user-attachments/assets/d3d27c80-19f0-4d3f-b780-c4b018d0b6d1" width="400" alt="Vista de la aplicación">
+<img src="https://github.com/user-attachments/assets/66538330-ae9e-4f10-a4ff-efc23feb1d47" width="400" alt="Vista de la aplicación">
+<img src="https://github.com/user-attachments/assets/4746421c-2cb6-48df-81f5-df6f2db12e1e" width="400" alt="Vista de la aplicación">
+<img src="https://github.com/user-attachments/assets/c8c6dea0-5003-4816-9cfb-47c658c71db3" width="400" alt="Vista de la aplicación">
+<img src="https://github.com/user-attachments/assets/1d77b43b-4182-4065-9c39-36e45730cbb0" width="400" alt="Vista de la aplicación">
+<img src="https://github.com/user-attachments/assets/5c430bed-0590-470f-8be2-2db5f10ff795" width="114" alt="Vista de la aplicación">
 </div>
 
 ## 🚀 Pruébalo tú mismo.
 1. Clona este repositorio
 2. Abre el archivo `index.html` en tu navegador
-3. ¡Comienza a usar el sorteo!
+3. ¡Comienza el juego!
 
 O simplemente ingresa a la Demo:
 https://jagen74.github.io/challenge-amigo-secreto/
