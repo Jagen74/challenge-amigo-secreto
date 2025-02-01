@@ -4,6 +4,7 @@ const listaNombres = document.querySelector(".name-list");
 const amigoSecreto = document.querySelector(".result-list");
 const btnSortear = document.querySelector(".button-draw");
 let nombres = [];
+let regex = /[^a-zA-Z\s]/;
 
 function agregarAmigo() {    
     if (!nombre.value) {        
@@ -29,6 +30,17 @@ function agregarAmigo() {
             backdrop: 'static',
             scrollbarPadding: false                    
         });
+    } else if (regex.test(nombre.value)){
+        Swal.fire({
+            position: "center",
+            icon: "warning",
+            title: "¡No se permiten números ni carácteres especiales!",
+            showConfirmButton: false,
+            timer: 1600,
+            heightAuto: false,   
+            backdrop: 'static',
+            scrollbarPadding: false                    
+        });
     } else if (amigoSecreto.hasChildNodes()){
         btnReset();
     } else {
@@ -37,7 +49,7 @@ function agregarAmigo() {
         nombres.push(nombre.value);
         nombres.forEach(nombre => {
             const item = document.createElement('li');
-            item.textContent = nombre;
+            item.textContent = `◦ ${nombre}`;
             listaNombres.appendChild(item);            
         });
         nombre.value = "";
