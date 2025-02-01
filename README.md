@@ -5,9 +5,10 @@ después mostrarle en pantalla.
 
 ## 💡 ¿Cómo funciona?.
 
-1. Escribe el nombre de cada participante en el campo de texto.
+1. Escribe el nombre de cada participante en el campo de texto (Mínimo 2 nombres).
 2. Presiona el botón "Añadir" para agregar cada nombre a la lista.
-3. Cuando tengas todos los nombres, usa el botón "Sortear Amigo"  para elegir uno aleatoriamente.
+3. Cuando tengas todos los nombres, usa el botón "Sortear Amigo" para elegir uno aleatoriamente.
+4. Presiona el botón "Reiniciar" para volver a jugar.
 
 ## 🛠️ Tecnologías utilizadas.
 
@@ -25,7 +26,6 @@ después mostrarle en pantalla.
 - Alertas para campos inválidos.
 - Validación de nombres duplicados- 
 - Diseño Responsivo para moviles.
-
 
 ## 💻 Vista previa
 

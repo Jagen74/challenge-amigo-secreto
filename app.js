@@ -89,7 +89,7 @@ document.addEventListener("keydown", function (e) {
 });
 
 function btnChk () {
-    if (nombres.length <= 2){
+    if (nombres.length < 2){
         btnSortear.setAttribute('disabled', '');
     } else {
         btnSortear.removeAttribute('disabled');
