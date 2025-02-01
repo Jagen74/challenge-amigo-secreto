@@ -15,6 +15,12 @@
     box-sizing: border-box;
 }
 
+/* Estidos para los popup */
+.swal2-popup {
+    font-family: 'Poppins', sans-serif !important;
+    border-radius: 10px;
+}
+
 body {
     height: 100vh;
     background-color: var(--color-primary);
@@ -55,14 +61,14 @@ body {
 /* Títulos */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: "Noto Sans", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: var(--color-white);    
 }
 
 .section-title {
-    font-family: "Inter", serif;
+    font-family: "Poppins", serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
@@ -86,11 +92,15 @@ body {
     border-radius: 25px 0 0 25px;
     font-size: 16px;
     text-transform: capitalize;
+    font-family: "Poppins", serif;
 }
 
 .button-container {
-    width: 300px;
-    justify-content: center;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;      
+    gap: 40px;   
 }
 
 /* Estilos de entrada de texto */
@@ -101,14 +111,14 @@ body {
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
+    font-family: "Poppins", serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Estilos de botón */
 button {
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", serif;
     font-size: 16px;
     border: 2px solid #000;
     border-radius: 25px;
@@ -130,15 +140,16 @@ button {
 ul {
     list-style-type: none;
     color: var(--color-text);
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", serif;
     font-size: 18px;
     margin: 20px 0;
+    text-decoration: dotted;
 }
 
 .result-list {
-    margin-top: 15px;
+    margin-top: 2px;
     color: #05DF05;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
@@ -151,7 +162,9 @@ ul {
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 25px;
+    
 }
 
 .button-draw img {
@@ -162,8 +175,58 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-@media (max-width: 1280px){
+.button-draw:disabled{    
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    opacity: 0.6;
+    border-color: #727070;    
+}
+
+.button-reset{    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;    
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-reset img {
+    width: 40px;  /* Ajusta el tamaño de la imagen */
+    height: 40px;    
+}
+
+.button-reset:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-reset:disabled{    
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    opacity: 0.6;
+    border-color: #727070;
+}
+
+@media (max-width: 768px){
     .header-banner{        
         flex-direction: column;
-    }    
+    }
+    .button-container{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+    .button-draw{
+        height: 70px;                
+        justify-content: center;        
+        padding: 0;
+    }
 }
