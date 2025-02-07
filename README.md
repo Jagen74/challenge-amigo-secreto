@@ -1,7 +1,7 @@
 # 🎲 Challenge Alura - Amigo Secreto.
 
 Proyecto propuesto por Alura cuya función es sortear un nombre aleatoriamente de una lista y
-después mostrarle en pantalla.
+después mostrarlo en pantalla.
 
 ## 💡 ¿Cómo funciona?.
 
