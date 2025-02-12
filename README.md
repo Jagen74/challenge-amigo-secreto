@@ -30,12 +30,7 @@ después mostrarlo en pantalla.
 ## 💻 Vista previa
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/15a36aeb-348b-437a-94b2-a2af2545fc14" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/46393042-a9a1-4380-ae53-4014c7595a42" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/66538330-ae9e-4f10-a4ff-efc23feb1d47" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/c8c6dea0-5003-4816-9cfb-47c658c71db3" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/1d77b43b-4182-4065-9c39-36e45730cbb0" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/5c430bed-0590-470f-8be2-2db5f10ff795" width="114" alt="Vista de la aplicación">
+  <img src="https://github.com/user-attachments/assets/bc50ebf4-5e46-4c6d-bc58-160e8dcc0130" alt="Vista de la aplicación">
 </div>
 
 ## 🚀 Pruébalo tú mismo.
