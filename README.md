@@ -1,7 +1,7 @@
 # 🎲 Challenge Alura - Amigo Secreto.
 
 Proyecto propuesto por Alura cuya función es sortear un nombre aleatoriamente de una lista y
-después mostrarle en pantalla.
+después mostrarlo en pantalla.
 
 ## 💡 ¿Cómo funciona?.
 
@@ -31,7 +31,7 @@ después mostrarle en pantalla.
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/15a36aeb-348b-437a-94b2-a2af2545fc14" width="400" alt="Vista de la aplicación">
-<img src="https://github.com/user-attachments/assets/d3d27c80-19f0-4d3f-b780-c4b018d0b6d1" width="400" alt="Vista de la aplicación">
+<img src="https://github.com/user-attachments/assets/46393042-a9a1-4380-ae53-4014c7595a42" width="400" alt="Vista de la aplicación">
 <img src="https://github.com/user-attachments/assets/66538330-ae9e-4f10-a4ff-efc23feb1d47" width="400" alt="Vista de la aplicación">
 <img src="https://github.com/user-attachments/assets/c8c6dea0-5003-4816-9cfb-47c658c71db3" width="400" alt="Vista de la aplicación">
 <img src="https://github.com/user-attachments/assets/1d77b43b-4182-4065-9c39-36e45730cbb0" width="400" alt="Vista de la aplicación">
