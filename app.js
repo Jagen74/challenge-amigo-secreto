@@ -48,7 +48,7 @@
         listaNombres.textContent = "";
         amigoSecreto.textContent = "";
         btnChk();
-        alertMsg("Juego Reiniciado", "success");
+        alertMsg("¡Juego Reiniciado!", "success");
     }
 
     function alertMsg(title, icon) {
